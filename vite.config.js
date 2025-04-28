@@ -12,5 +12,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, "/api"),
       },
     },
+    allowedHosts: [
+      "2fcf-112-197-33-75.ngrok-free.app",
+      "serp-client-ten.vercel.app",
+    ],
   },
 });
